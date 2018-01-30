@@ -12,7 +12,7 @@ end
 def assign_rooms(names)
   room = 0
   names.map do |name|
-    "Hello, #{name}! You'll be assigned to room #{rooms_available}!"
     rooms += 1
+    "Hello, #{name}! You'll be assigned to room #{rooms_available}!"
   end
 end
